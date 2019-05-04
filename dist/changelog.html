@@ -1,0 +1,1022 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/fonts/feather/feather.min.css">
+    <link rel="stylesheet" href="assets/libs/highlight.js/styles/vs2015.css">
+    <link rel="stylesheet" href="assets/libs/quill/dist/quill.core.css">
+    <link rel="stylesheet" href="assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="assets/libs/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Theme CSS -->
+    
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+      
+
+    <title>Dashkit</title>
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Get Updates modal -->
+    <div class="modal fade fixed-right" id="modalEmailUpdates" tabindex="-1" role="dialog" aria-labelledby="Get update modal by email" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical bg-white" role="document">
+        <div class="modal-content">
+          <div class="modal-body pb-5">
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div class="header text-center">
+              <div class="header-body">
+
+                <h6 class="header-pretitle">
+                  Shiftly Updates
+                </h6>
+
+                <h1 class="header-title">
+                  Get notified by email
+                </h1>
+
+              </div>
+            </div>
+            <!-- Text -->
+            <p class="text-center text-muted mb-5">
+              Be the first to know about new tokens added and our next big thing 👇.
+            </p>
+            <form action="https://finance.us19.list-manage.com/subscribe/post?u=7af5c3187ee4d9e4add305a2e&amp;id=035cb9fb40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate col mb-5" target="_blank" novalidate>
+              <div class="input-group input-group-lg">
+                <input class="form-control" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="myemail@address.com" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7af5c3187ee4d9e4add305a2e_035cb9fb40" tabindex="-1" value=""></div>
+                <div class="input-group-append bg-black">
+                  <button class="btn btn-dark btn-lg btn-block" name="subscribe" id="mc-embedded-subscribe">
+                      <span class="fe fe-send"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div class="row justify-content-center">
+              <div class="col-auto mb-5">
+                <a href="https://t.me/betokenfund" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/telegram.svg" alt="telegram logo" height="20">
+                </a>
+                <a href="https://twitter.com/betokenfund" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/twitter.svg" alt="twitter logo" height="20">
+                </a>
+                <a href="https://medium.com/betoken" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/medium.svg" alt="medium logo" height="20">
+                </a>
+                <a href="https://github.com/Betoken" class="btn btn-rounded-circle btn-white" target="_blank">
+                  <img class="mx-auto" src="assets/img/github.svg" alt="medium logo" height="20">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- / modal -->
+    <!-- Modal: Members -->
+    <div class="modal fade" id="modalMembers" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-card card" data-toggle="lists" data-lists-values='["name"]'>
+            <div class="card-header">
+              <div class="row align-items-center">
+                <div class="col">
+
+                  <!-- Title -->
+                  <h4 class="card-header-title" id="exampleModalCenterTitle">
+                    Add a member
+                  </h4>
+
+                </div>
+                <div class="col-auto">
+
+                  <!-- Close -->
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </div>
+            <div class="card-header">
+
+              <!-- Form -->
+              <form>
+                <div class="input-group input-group-flush input-group-merge">
+                  <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <span class="fe fe-search"></span>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+            <div class="card-body">
+
+              <!-- List group -->
+              <ul class="list-group list-group-flush list my-n3">
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Miyah Myles</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-success">●</span> Online
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-6.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Ryu Duke</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-success">●</span> Online
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-7.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Glen Rouse</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-warning">●</span> Busy
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-8.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Grace Gross</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-danger">●</span> Offline
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: Search -->
+    <div class="modal fade" id="sidebarModalSearch" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical" role="document">
+        <div class="modal-content">
+          <div class="modal-body" data-toggle="lists" data-lists-values='["name"]'>
+
+            <!-- Form -->
+            <form class="mb-4">
+              <div class="input-group input-group-merge">
+                <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <span class="fe fe-search"></span>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <!-- List group -->
+            <div class="my-n3">
+              <div class="list-group list-group-flush list">
+                <a href="team-overview.html" class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/teams/team-logo-1.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Airbnb
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 2hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </a>
+                <a href="team-overview.html" class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/teams/team-logo-2.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Medium Corporation
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 2hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </a>
+                <a href="project-overview.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar avatar-4by3">
+                        <img src="assets/img/avatars/projects/project-1.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Homepage Redesign
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 4hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="project-overview.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar avatar-4by3">
+                        <img src="assets/img/avatars/projects/project-2.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Travels & Time
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 4hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="project-overview.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar avatar-4by3">
+                        <img src="assets/img/avatars/projects/project-3.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Safari Exploration
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 4hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="profile-posts.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Dianna Smiley
+                      </h4>
+
+                      <!-- Status -->
+                      <p class="text-body small mb-0">
+                        <span class="text-success">●</span> Online
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="profile-posts.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Ab Hadley
+                      </h4>
+
+                      <!-- Status -->
+                      <p class="text-body small mb-0">
+                        <span class="text-danger">●</span> Offline
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: Activity -->
+    <div class="modal fade" id="sidebarModalActivity" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <!-- Title -->
+            <h4 class="modal-title">
+              Notifications
+            </h4>
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                &times;
+              </span>
+            </button>
+
+          </div>
+          <div class="modal-body">
+
+            <!-- List group -->
+            <div class="list-group list-group-flush my-n3">
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Dianna Smiley</strong> shared your post with <strong class="text-body">Ab Hadley</strong>, <strong class="text-body">Adolfo Hess</strong>, and <strong class="text-body">3 others</strong>.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Ab Hadley</strong> reacted to your post with a 😍
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-3.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Adolfo Hess</strong> commented <blockquote class="text-body">“I don’t think this really makes sense to do without approval from Johnathan since he’s the one...” </blockquote>
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-4.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Daniela Dewitt</strong> subscribed to you.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Miyah Myles</strong> shared your post with <strong class="text-body">Ryu Duke</strong>, <strong class="text-body">Glen Rouse</strong>, and <strong class="text-body">3 others</strong>.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-6.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Ryu Duke</strong> reacted to your post with a 😍
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-7.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Glen Rouse</strong> commented <blockquote class="text-body">“I don’t think this really makes sense to do without approval from Johnathan since he’s the one...” </blockquote>
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-8.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Grace Gross</strong> subscribed to you.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVIGATION
+    ================================================== -->
+    
+    
+      <!-- HEADER -->
+      <div class="bg-ellipses bg-dark pb-7">
+        <!-- NAVIGATION
+        ================================================== -->
+        <nav class="navbar navbar-expand-lg bg-transparent border border-0 mb-5" id="topnav">
+          <div class="container">
+            <div class="row d-flex justify-content-between no-gutters w-100">
+              <div class="col d-flex align-items-center">
+                <!-- Brand -->
+                <a class="text-white" href="#" data-toggle="modal" data-target="#sidebarModal"><i class="fe fe-menu mr-3 h1 mb-0"></i></a>
+                <a class="navbar-brand mr-auto d-flex align-items-center" href="index.html">
+                  <img src="assets/img/logo.svg" alt="..." class="navbar-brand-img">
+                  <span class="text-white ml-2 h3 mb-0">Betoken</span>
+                </a>
+              </div>
+              <div class="col ml-auto d-flex justify-content-end">
+                <!-- social -->
+                <div class="navbar-user">
+                  <a class="text-white mr-5 d-none d-md-flex" href="https://medium.com/shiftly" target="_blank">Blog</a>
+                  <a class="text-white mr-5 d-none d-md-flex" href="https://shiftly.gitbook.io/shiftly/" target="_blank">Help</a>
+                  <div class="mr-4">
+                    <!-- Toggle -->
+                    <a class="text-white" data-toggle="modal" href="#modalEmailUpdates">
+                      <span class="icon active">
+                        <i class="fe fe-bell"></i>
+                      </span>
+                    </a>
+
+                  </div>
+                </div>
+                <ul class="navbar-nav">
+                  <li class="nav-item mr-2 d-none d-md-flex align-items-center">
+                    <a class="text-white btn btn-link" href="#" data-toggle="modal" data-target="#signIn">
+                      Sign in
+                    </a>
+                  </li>
+                  <li class="nav-item mr-2 d-none d-md-flex align-items-center">
+                    <a class="text-white btn btn-success" href="#" data-toggle="modal" data-target="#onboardingTuto">
+                      Sign Up
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- / .container -->
+        </nav>
+        <div class="container">
+          <div class="row justify-content-center mb-lg-5">
+            <div class="col col-lg-8 text-center">
+              <!-- Subtitle -->
+              <h6 class="header-pretitle text-muted">Experience the</h6>
+              <!-- Title -->
+              <h1 class="display-2 d-none d-lg-block text-white mb-5">
+                Crowd-powered crypto asset management
+              </h1>
+              <h1 class="display-4 d-block d-lg-none text-white mb-5">
+                Crowd-powered crypto asset management
+              </h1>
+              <a class="btn btn-success btn-lg mb-3" href="#">Get started</a>
+              <p class="text-muted small">Already using Betoken? <a class="text-white" href="#">Sign in</a>.</p>
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </div> <!-- / .bg-ellipses -->
+
+    
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+
+      
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10 col-xl-8">
+
+              <!-- Header -->
+              <div class="header mt-md-5">
+                <div class="header-body">
+
+                  <!-- Pretitle -->
+                  <h6 class="header-pretitle">
+                    Documentation
+                  </h6>
+  
+                  <!-- Title -->
+                  <h1 class="header-title">
+                    Changelog
+                  </h1>
+
+                </div>
+              </div>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.3.4</span></h2><span class="text-muted"> – March 12th, 2019</span>
+              <ul class="mb-5">
+                <li>Updated to Bootstrap v4.3.1.</li>
+                <li>Updated to Flatpickr v4.5.7.</li>
+                <li>Updated to Highlight.js 9.15.6.</li>
+                <li>Fixed Select2 search issue.</li>
+                <li>Fixed <code>.dropleft</code> icon issue.</li>
+                <li>Fixed <code>.icon</code> sizing issue.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.3.3</span></h2><span class="text-muted"> – February 12th, 2019</span>
+              <ul class="mb-5">
+                <li>Updated to Bootstrap v4.3.0.</li>
+                <li>Updated to Gulp v4.</li>
+                <li>Updated other plugins and dependencies.</li>
+                <li>Rewritten <code>gulpfile.js</code> from scratch.</li>
+                <li>Removed deprecated packages.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.3.2</span></h2><span class="text-muted"> – January 21st, 2019</span>
+              <ul class="mb-5">
+                <li>Updated to Bootstrap v4.2.1.</li>
+                <li>Replaced custom spacing utilities with Bootstrap ones.</li>
+                <li>Replaced Loaders with Spinners.</li>
+                <li>Replaced Toggles with Switches.</li>
+                <li>Cleaned up gulpfile.js and package.json.</li>
+                <li>Other small changes and improvements.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.3.1</span></h2><span class="text-muted"> – December 19th, 2018</span>
+              <ul class="mb-5">
+                <li>Added URL parser to set global preferences via query parameters.</li>
+                <li>Added SASS variable for image path.</li>
+                <li>Fixed <code>gulp build</code> task errors.</li>
+                <li>Replaced logo image.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.3.0</span></h2><span class="text-muted"> – October 16th, 2018</span>
+              <ul class="mb-5">
+                <li>Added layout builder.</li>
+                <li>Added <code>dashboard-alt.html</code> page.</li>
+                <li>Added <code>.bg-vibrant</code> class for sidebar.</li>
+                <li>Added custom styles for <code>.navbar-dark</code> class.</li>
+                <li>Added alternative positioning for vertical modal.</li>
+                <li>Fixed dropdown issues when positioned inside responsive table.</li>
+                <li>Moved Highlight.js inside <code>/node_modules</code>.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.2.1</span></h2><span class="text-muted"> – September 8th, 2018</span>
+              <ul class="mb-5">
+                <li>Fixed light mode dropdown border color.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.2.0</span></h2><span class="text-muted"> – September 1st, 2018</span>
+              <ul class="mb-5">
+                <li>Added dark mode.</li>
+                <li>Fixed Select2 dropdown list search when using inside a modal window.</li>
+                <li>Improved the <code>.avatar</code> component SCSS by replacing contextual borders with masks to be able to use avatar groups and status indicators on any background. Please make sure to remove any <code>.border</code> classes from avatar groups markup.</li>
+                <li>Optimized <code>gulpfile.js</code> to perform <strong class="badge badge-soft-primary"><code>gulp build</code></strong> faster.</li>
+                <li>Split <code>theme.js</code> into modules.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.1.2</span></h2><span class="text-muted"> – August 17th, 2018</span>
+              <ul class="mb-5">
+                <li>Added <code>$font-path</code> SCSS variable.</li>
+                <li>Updated to Bootstrap v4.1.3.</li>
+                <li>Improved SCSS of the Select2 plugin styles overrides.</li>
+                <li>Fixed radio button issue.</li>
+                <li>Fixed card tables border radius issue.</li>
+                <li>Fixed validation styles for <code>.input-group-merge</code>.</li>
+                <li>Fixed Select2 dropdown items highlighting when using keyboard navigation.</li>
+                <li>Made Select2 dropdowns respect <code>.form-control-sm</code> and <code>.form-control-lg</code>.</li>
+                <li>Made Select2 searchbox optional.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.1.1</span></h2><span class="text-muted"> – July 31st, 2018</span>
+              <ul class="mb-5">
+                <li>Specified the exact Bootstrap version in <code>package.json</code> since latest Bootstrap update (v4.1.3) made change to input height that caused issues. Interim solution until we integrate 4.1.3 properly to Dashkit.</li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.1.0</span></h2><span class="text-muted"> – July 24th, 2018</span>
+              <ul class="mb-5">
+                <li>
+                  New/Extended components:
+                  <ul>
+                    <li>Universal loading component with <code>.is-loading</code> convenience helper</li>
+                    <li>WYSIWYG editor powered by Quill.js</li>
+                    <li>Drag and drop file handling powered by Dropzone.js</li>
+                    <li>Rich select/multi-select powered by Select2</li>
+                    <li>Icon buttons</li>
+                  </ul>
+                </li>
+                <li>
+                  New example pages:
+                  <ul>
+                    <li>Orders page</li>
+                    <li>Invoice page</li>
+                    <li>Pricing page</li>
+                    <li>Create a project page</li>
+                    <li>Create a team page</li>
+                  </ul>
+                </li>
+                <li>
+                  Moved all plugin related styles into their own SCSS files.
+                </li>
+                <li>
+                  Small improvements to variable importing and modal animations. 
+                </li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.0.2</span></h2><span class="text-muted"> – July 20th, 2018</span>
+              <ul class="mb-5">
+                <li>
+                  Updated to Bootstrap v4.1.2.
+                </li>
+                <li>
+                  Fixed border utilities.
+                </li>
+                <li>
+                  Fixed an issue where tabs didn't get toggled while charts did.
+                </li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.0.1</span></h2><span class="text-muted"> – July 18th, 2018</span>
+              <ul class="mb-5">
+                <li>
+                  Removed page header from the topnav version.
+                </li>
+                <li>
+                  Changed variables import order. Added <code>!default</code> flag to custom variables.
+                </li>
+                <li>
+                  Fixed scrolling issue on authentication pages.
+                </li>
+                <li>
+                  Fixed Chart.js issue causing errors on pages with no charts.
+                </li>
+              </ul>
+
+              <h2 class="d-inline-block"><span class="badge badge-soft-primary mt-n1">v1.0.0</span></h2><span class="text-muted"> – June 25th, 2018</span>
+              <ul>
+                <li>
+                  Initial release of Dashkit! Lots more coming soon though 😁
+                </li>
+              </ul>
+
+          </div>
+        </div> <!-- / .row -->
+      </div>
+      
+    </div> <!-- / .main-content -->
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="assets/libs/list.js/dist/list.min.js"></script>
+    <script src="assets/libs/quill/dist/quill.min.js"></script>
+    <script src="assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="assets/libs/select2/dist/js/select2.min.js"></script>
+    <script src="assets/libs/chart.js/Chart.extension.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+
+  </body>
+</html>

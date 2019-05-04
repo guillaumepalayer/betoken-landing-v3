@@ -1,0 +1,1453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/fonts/feather/feather.min.css">
+    <link rel="stylesheet" href="assets/libs/highlight.js/styles/vs2015.css">
+    <link rel="stylesheet" href="assets/libs/quill/dist/quill.core.css">
+    <link rel="stylesheet" href="assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="assets/libs/flatpickr/dist/flatpickr.min.css">
+
+    <!-- Theme CSS -->
+    
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+      
+
+    <title>Betoken | Crowd-powered crypto asset management protocol</title>
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Get Updates modal -->
+    <div class="modal fade fixed-right" id="modalEmailUpdates" tabindex="-1" role="dialog" aria-labelledby="Get update modal by email" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical bg-white" role="document">
+        <div class="modal-content">
+          <div class="modal-body pb-5">
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div class="header text-center">
+              <div class="header-body">
+
+                <h6 class="header-pretitle">
+                  Shiftly Updates
+                </h6>
+
+                <h1 class="header-title">
+                  Get notified by email
+                </h1>
+
+              </div>
+            </div>
+            <!-- Text -->
+            <p class="text-center text-muted mb-5">
+              Be the first to know about new tokens added and our next big thing 👇.
+            </p>
+            <form action="https://finance.us19.list-manage.com/subscribe/post?u=7af5c3187ee4d9e4add305a2e&amp;id=035cb9fb40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate col mb-5" target="_blank" novalidate>
+              <div class="input-group input-group-lg">
+                <input class="form-control" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="myemail@address.com" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7af5c3187ee4d9e4add305a2e_035cb9fb40" tabindex="-1" value=""></div>
+                <div class="input-group-append bg-black">
+                  <button class="btn btn-dark btn-lg btn-block" name="subscribe" id="mc-embedded-subscribe">
+                      <span class="fe fe-send"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div class="row justify-content-center">
+              <div class="col-auto mb-5">
+                <a href="https://t.me/betokenfund" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/telegram.svg" alt="telegram logo" height="20">
+                </a>
+                <a href="https://twitter.com/betokenfund" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/twitter.svg" alt="twitter logo" height="20">
+                </a>
+                <a href="https://medium.com/betoken" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/medium.svg" alt="medium logo" height="20">
+                </a>
+                <a href="https://github.com/Betoken" class="btn btn-rounded-circle btn-white" target="_blank">
+                  <img class="mx-auto" src="assets/img/github.svg" alt="medium logo" height="20">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- / modal -->
+    <!-- Modal: Members -->
+    <div class="modal fade" id="modalMembers" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-card card" data-toggle="lists" data-lists-values='["name"]'>
+            <div class="card-header">
+              <div class="row align-items-center">
+                <div class="col">
+
+                  <!-- Title -->
+                  <h4 class="card-header-title" id="exampleModalCenterTitle">
+                    Add a member
+                  </h4>
+
+                </div>
+                <div class="col-auto">
+
+                  <!-- Close -->
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
+                </div>
+              </div> <!-- / .row -->
+            </div>
+            <div class="card-header">
+
+              <!-- Form -->
+              <form>
+                <div class="input-group input-group-flush input-group-merge">
+                  <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <span class="fe fe-search"></span>
+                    </div>
+                  </div>
+                </div>
+              </form>
+
+            </div>
+            <div class="card-body">
+
+              <!-- List group -->
+              <ul class="list-group list-group-flush list my-n3">
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Miyah Myles</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-success">●</span> Online
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-6.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Ryu Duke</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-success">●</span> Online
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-7.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Glen Rouse</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-warning">●</span> Busy
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+                <li class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <a href="profile-posts.html" class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-8.jpg" alt="..." class="avatar-img rounded-circle">
+                      </a>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="mb-1 name">
+                        <a href="profile-posts.html">Grace Gross</a>
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small mb-0">
+                        <span class="text-danger">●</span> Offline
+                      </p>
+
+                    </div>
+                    <div class="col-auto">
+
+                      <!-- Button -->
+                      <a href="#!" class="btn btn-sm btn-white">
+                        Add
+                      </a>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: Search -->
+    <div class="modal fade" id="sidebarModalSearch" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical" role="document">
+        <div class="modal-content">
+          <div class="modal-body" data-toggle="lists" data-lists-values='["name"]'>
+
+            <!-- Form -->
+            <form class="mb-4">
+              <div class="input-group input-group-merge">
+                <input type="search" class="form-control form-control-prepended search" placeholder="Search">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <span class="fe fe-search"></span>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <!-- List group -->
+            <div class="my-n3">
+              <div class="list-group list-group-flush list">
+                <a href="team-overview.html" class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/teams/team-logo-1.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Airbnb
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 2hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </a>
+                <a href="team-overview.html" class="list-group-item px-0">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/teams/team-logo-2.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Medium Corporation
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 2hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+                </a>
+                <a href="project-overview.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar avatar-4by3">
+                        <img src="assets/img/avatars/projects/project-1.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Homepage Redesign
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 4hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="project-overview.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar avatar-4by3">
+                        <img src="assets/img/avatars/projects/project-2.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Travels & Time
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 4hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="project-overview.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar avatar-4by3">
+                        <img src="assets/img/avatars/projects/project-3.jpg" alt="..." class="avatar-img rounded">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Safari Exploration
+                      </h4>
+
+                      <!-- Time -->
+                      <p class="small text-muted mb-0">
+                        <span class="fe fe-clock"></span> <time datetime="2018-05-24">Updated 4hr ago</time>
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="profile-posts.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Dianna Smiley
+                      </h4>
+
+                      <!-- Status -->
+                      <p class="text-body small mb-0">
+                        <span class="text-success">●</span> Online
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+                <a href="profile-posts.html" class="list-group-item px-0">
+
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+
+                      <!-- Avatar -->
+                      <div class="avatar">
+                        <img src="assets/img/avatars/profiles/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                      </div>
+
+                    </div>
+                    <div class="col ml-n2">
+
+                      <!-- Title -->
+                      <h4 class="text-body mb-1 name">
+                        Ab Hadley
+                      </h4>
+
+                      <!-- Status -->
+                      <p class="text-body small mb-0">
+                        <span class="text-danger">●</span> Offline
+                      </p>
+
+                    </div>
+                  </div> <!-- / .row -->
+
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: Activity -->
+    <div class="modal fade" id="sidebarModalActivity" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <!-- Title -->
+            <h4 class="modal-title">
+              Notifications
+            </h4>
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">
+                &times;
+              </span>
+            </button>
+
+          </div>
+          <div class="modal-body">
+
+            <!-- List group -->
+            <div class="list-group list-group-flush my-n3">
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Dianna Smiley</strong> shared your post with <strong class="text-body">Ab Hadley</strong>, <strong class="text-body">Adolfo Hess</strong>, and <strong class="text-body">3 others</strong>.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Ab Hadley</strong> reacted to your post with a 😍
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-3.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Adolfo Hess</strong> commented <blockquote class="text-body">“I don’t think this really makes sense to do without approval from Johnathan since he’s the one...” </blockquote>
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-4.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Daniela Dewitt</strong> subscribed to you.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Miyah Myles</strong> shared your post with <strong class="text-body">Ryu Duke</strong>, <strong class="text-body">Glen Rouse</strong>, and <strong class="text-body">3 others</strong>.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-6.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Ryu Duke</strong> reacted to your post with a 😍
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-7.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Glen Rouse</strong> commented <blockquote class="text-body">“I don’t think this really makes sense to do without approval from Johnathan since he’s the one...” </blockquote>
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+              <a class="list-group-item px-0" href="#!">
+
+                <div class="row">
+                  <div class="col-auto">
+
+                    <!-- Avatar -->
+                    <div class="avatar avatar-sm">
+                      <img src="assets/img/avatars/profiles/avatar-8.jpg" alt="..." class="avatar-img rounded-circle">
+                    </div>
+
+                  </div>
+                  <div class="col ml-n2">
+
+                    <!-- Content -->
+                    <div class="small text-muted">
+                      <strong class="text-body">Grace Gross</strong> subscribed to you.
+                    </div>
+
+                  </div>
+                  <div class="col-auto">
+
+                    <small class="text-muted">
+                      2m
+                    </small>
+
+                  </div>
+                </div> <!-- / .row -->
+
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVIGATION
+    ================================================== -->
+    <!-- HEADER -->
+    <div class="bg-ellipses bg-dark pb-7">
+      <!-- NAVIGATION
+      ================================================== -->
+      <nav class="navbar navbar-expand-lg bg-transparent border border-0 mb-5" id="topnav">
+        <div class="container">
+          <div class="row d-flex justify-content-between no-gutters w-100">
+            <div class="col d-flex align-items-center">
+              <!-- Brand -->
+              <a class="text-white" href="#" data-toggle="modal" data-target="#sidebarModal"><i class="fe fe-menu mr-3 h1 mb-0"></i></a>
+              <a class="navbar-brand mr-auto d-flex align-items-center" href="index.html">
+                <img src="assets/img/logo.svg" alt="..." class="navbar-brand-img">
+                <span class="text-white ml-2 h3 mb-0">Betoken</span>
+              </a>
+            </div>
+            <div class="col ml-auto d-flex justify-content-end">
+              <!-- social -->
+              <div class="navbar-user">
+                <a class="text-white mr-5 d-none d-md-flex" href="https://medium.com/shiftly" target="_blank">Blog</a>
+                <a class="text-white mr-5 d-none d-md-flex" href="https://shiftly.gitbook.io/shiftly/" target="_blank">Help</a>
+                <div class="mr-4">
+                  <!-- Toggle -->
+                  <a class="text-white" data-toggle="modal" href="#modalEmailUpdates">
+                    <span class="icon active">
+                      <i class="fe fe-bell"></i>
+                    </span>
+                  </a>
+
+                </div>
+              </div>
+              <ul class="navbar-nav">
+                <li class="nav-item mr-2 d-none d-md-flex align-items-center">
+                  <a class="text-white btn btn-link" href="#" data-toggle="modal" data-target="#signIn">
+                    Sign in
+                  </a>
+                </li>
+                <li class="nav-item mr-2 d-none d-md-flex align-items-center">
+                  <a class="text-white btn btn-success" href="#" data-toggle="modal" data-target="#onboardingTuto">
+                    Sign Up
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- / .container -->
+      </nav>
+      <div class="container">
+        <div class="row justify-content-center mb-lg-5">
+          <div class="col col-lg-8 text-center">
+            <!-- Subtitle -->
+            <h6 class="header-pretitle text-muted">Experience the</h6>
+            <!-- Title -->
+            <h1 class="display-2 d-none d-lg-block text-white mb-5">
+              Crowd-powered crypto asset management
+            </h1>
+            <h1 class="display-4 d-block d-lg-none text-white mb-5">
+              Crowd-powered crypto asset management
+            </h1>
+            <a class="btn btn-success btn-lg mb-3" href="#">Get started</a>
+            <p class="text-muted small">Already using Betoken? <a class="text-white" href="#">Sign in</a>.</p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div> <!-- / .bg-ellipses -->
+
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+
+      <!-- CARDS -->
+      <div class="container mt-n6 mb-6">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6 col-xl-10">
+
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                    <div class="row">
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <span class="h2 fe fe-activity text-muted mb-0"></span>
+
+                      </div>
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="card-title text-uppercase text-muted mb-2">
+                          ROI (1 Month)
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          4.5356 %
+                        </span>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                    <div class="row">
+                    <div class="col-auto">
+
+                      <!-- Icon -->
+                      <span class="h2 fe fe-sunrise text-muted mb-0"></span>
+
+                    </div>
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="card-title text-uppercase text-muted mb-2">
+                          ROI (Since inception)
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          304.5356 %
+                        </span>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+                    <div class="row">
+
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <span class="h2 fe fe-shield text-muted mb-0"></span>
+
+                      </div>
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="card-title text-uppercase text-muted mb-2">
+                          Sortino ratio
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          3.6054
+                        </span>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <div class="row">
+
+                      <div class="col-auto">
+
+                        <!-- Icon -->
+                        <span class="h2 fe fe-bar-chart-2 text-muted mb-0"></span>
+
+                      </div>
+                      <div class="col">
+
+                        <!-- Title -->
+                        <h6 class="card-title text-uppercase text-muted mb-2">
+                          Standard deviation
+                        </h6>
+
+                        <!-- Heading -->
+                        <span class="h2 mb-0">
+                          30.6054 %
+                        </span>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div> <!-- / .row -->
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              You think 2 brains are better than one...
+            </h2>
+
+            <!-- Text -->
+            <p class="display-4 text-center text-muted d-none d-lg-block">
+              How about hundreds of talented asset managers working for you? Worldwide!
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              You think 2 brains are better than one...
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              How about hundreds of talented asset managers working for you? Worldwide!
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+            <!-- Text -->
+            <p class="lead text-secondary text-center">
+              Many people have the capital to invest in cryptocurrency but not the expertise, and many others have the expertise but not the capital.
+            </p>
+          </div>
+          <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+            <img class="d-block w-100 mx-auto" src="assets/img/illustrations/undraw_connected_world_wuay.svg" alt="undraw_connected_world_wuay">
+          </div>
+          <div class="col-12 col-lg-4">
+            <!-- Text -->
+            <p class="lead text-secondary text-center">
+              Betoken is an open-source, community-owned, permissionless, and censorship-resistant protocol for connecting capital with talent, and talent with capital.
+            </p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              An open crypto fund managed by code and meritocracy
+            </h2>
+
+            <!-- Text -->
+            <p class="display-4 text-center text-muted d-none d-lg-block">
+              Your money is managed by the best people
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              An open crypto fund managed by code and meritocracy
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              Your money is managed by the best people
+            </p>
+
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center align-items-center mb-0 mb-lg-6">
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <h3 class="h1">Sit back and relax</h3>
+            <!-- Text -->
+            <p class="lead text-secondary">
+              Your capital is automatically distributed among Betoken’s <a href="https://betoken.fund/portal/#/rankings" target="_blank">community of managers</a>. The best of them will have the most influence over how that capital is put to work.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0 order-first order-lg-last">
+            <img class="d-block w-50 mx-auto" src="assets/img/illustrations/undraw_on_the_office_fbfs.svg" alt="undraw_on_the_office_fbfs">
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center align-items-center mb-0 mb-lg-6">
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+            <img class="d-block w-50 mx-auto" src="assets/img/illustrations/undraw_on_the_office_fbfs.svg" alt="undraw_on_the_office_fbfs">
+          </div>
+          <div class="col-12 col-lg-5 mb-6 mb-lg-0">
+            <h3  class="h1">Save time & effort</h3>
+            <!-- Text -->
+            <p class="lead text-secondary mb-4">
+              Unlike platforms such as Melonport and eToro, you don’t need to waste time on choosing the best performers and carefully hedging capital amongst them. All Betoken managers actively trade against the market while you sleep.
+            </p>
+            <a class="btn btn-success btn-lg" href="#">Connect your capital</a>
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center align-items-center mb-5 mb-lg-6">
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <h3 class="h1">The best managers earn the most</h3>
+            <!-- Text -->
+            <p class="lead text-secondary">
+              The Betoken protocol recognizes and quantifies the talent of its crypto-traders by allocating units of reputation to them, denominated in Kairo tokens, and financially rewards them based on their talent and contributions.
+            </p>
+            <a class="btn btn-success btn-lg" href="#">Start managing</a>
+          </div>
+          <div class="col-12 col-lg-6 mb-5 mb-lg-0 order-first order-lg-last">
+            <img class="d-block w-50 mx-auto" src="assets/img/illustrations/undraw_on_the_office_fbfs.svg" alt="undraw_on_the_office_fbfs">
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5">
+          <div class="col col-lg-8 text-center">
+
+            <!-- Title -->
+            <h2 class="display-2 d-none d-lg-block mb-5">
+              How is Betoken different?
+            </h2>
+
+            <!-- Title -->
+            <h2 class="display-4 d-block d-lg-none mb-5">
+              How is Betoken different?
+            </h2>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-auto col-lg-4">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link text-secondary active lead py-4" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">
+                <span class="d-flex d-lg-none">1</span>
+                <span class="d-none d-lg-flex">User-owned, User-governed</span>
+              </a>
+              <a class="nav-link text-secondary lead py-4" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">
+                <span class="d-flex d-lg-none">2</span>
+                <span class="d-none d-lg-flex">Active Management</span>
+              </a>
+              <a class="nav-link text-secondary lead py-4" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">
+                <span class="d-flex d-lg-none">3</span>
+                <span class="d-none d-lg-flex">Full Collateralization</span>
+              </a>
+              <a class="nav-link text-secondary lead py-4" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">
+                <span class="d-flex d-lg-none">4</span>
+                <span class="d-none d-lg-flex">50+ Assets</span>
+              </a>
+              <a class="nav-link text-secondary lead py-4" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">
+                <span class="d-flex d-lg-none">5</span>
+                <span class="d-none d-lg-flex">No limits, no hidden fees</span>
+              </a>
+            </div>
+          </div>
+          <div class="col col-lg-7">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+                <img class="d-block w-50 mx-auto mb-4" src="assets/img/illustrations/undraw_team_spirit_hrr4.svg" alt="undraw_team_spirit_hrr4">
+                <h3 class="h2 d-block d-lg-none">User-owned, User-governed</h3>
+                <p class="lead text-secondary">
+                  Betoken's governance system oversees protocol changes and upgrades, and provides funding for the development of new features. No single company or individual can control the protocol. It's owned and governed by the very people who use it and benefit from it—You.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+                <img class="d-block w-50 mx-auto mb-4" src="assets/img/illustrations/undraw_developer_activity_bv83.svg" alt="undraw_developer_activity_bv83">
+                <h3 class="h2 d-block d-lg-none">Active Management</h3>
+                <p class="lead text-secondary">
+                  Hundreds of Betoken managers actively prevent losses and seize profitable opportunities for your sake. Your money is converted into an actively managed portfolio of assets that can immediately respond to even the slightest changes in the market.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+                <img class="d-block mx-auto mb-4" src="assets/img/illustrations/undraw_vault_9cmw.svg" alt="undraw_vault_9cmw" width="250">
+                <h3 class="h2 d-block d-lg-none">Full Collateralization</h3>
+                <p class="lead text-secondary">
+                  When you connect your capital to Betoken, your deposit is converted in Betoken Share tokens. It represents your ownership in the Betoken fund and is fully backed by a collateral in the smart contract. Each of them acts like a tokenized portfolio, containing the underlying tokens that Betoken managers buy and sell.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+                <img class="d-block w-50 mx-auto mb-4" src="assets/img/illustrations/undraw_digital_currency_qpak.svg" alt="undraw_digital_currency_qpak">
+                <h3 class="h2 d-block d-lg-none">50+ Assets</h3>
+                <p class="lead text-secondary">
+                  By connecting your capital to Betoken protocol, you get a direct exposure to ETH, WBTC, BAT, MKR and 50+ ERC20 tokens.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+                <img class="d-block w-50 mx-auto mb-4" src="assets/img/illustrations/undraw_discount_d4bd.svg" alt="undraw_discount_d4bd">
+                <h3 class="h2 d-block d-lg-none">No limits, no hidden fees</h3>
+                <p class="lead text-secondary">
+                  No minimums. No deposit fees. Only $1, $2, or $3 to start automating your crypto portfolio. <a href="#" target="_blank">More here</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              You are in safe hands
+            </h2>
+
+            <!-- Text -->
+            <p class="display-4 text-center text-muted d-none d-lg-block">
+              Remain always in control of your funds. Built and audited by the best.
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              You are in safe hands
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              Remain always in control of your funds. Built and audited by the best.
+            </p>
+
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center mb-0 mb-lg-6">
+          <div class="col-12 col-lg-5">
+            <img class="d-block w-50 mx-auto mb-4" src="assets/img/illustrations/undraw_on_the_office_fbfs.svg" alt="undraw_on_the_office_fbfs">
+            <h3 class="h1">Non-custodial</h3>
+            <!-- Text -->
+            <p class="lead text-secondary">
+              Betoken is non-custodial. You always stay in control, it’s written on the blockchain. All user funds are locked in smart contracts without Betoken developers having any direct or indirect access to those funds.
+            </p>
+          </div>
+          <div class="col-12 col-lg-5 offset-lg-1">
+            <img class="d-block w-50 mx-auto mb-4" src="assets/img/illustrations/undraw_on_the_office_fbfs.svg" alt="undraw_on_the_office_fbfs">
+            <h3  class="h1">Tested and audited smart contracts</h3>
+            <!-- Text -->
+            <p class="lead text-secondary mb-4">
+              Betoken is powered by <a href="#" target="_blank">audited code</a> and designed so that no one can steal the collateral that backs the value of your deposit.
+            </p>
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              Powered by open protocols
+            </h2>
+
+            <!-- Text -->
+            <p class="display-4 text-center text-muted d-none d-lg-block">
+              Betoken protocol uses the full value of the decentralized finance ecosystem
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              Powered by open protocols
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              Betoken protocol uses the full value of the decentralized finance ecosystem
+            </p>
+
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center mt-6 mt-md-7">
+          <div class="col-12">
+            <div class="card-deck">
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0">
+
+                <div class="card-body text-center">
+
+                  <div href="#" class="avatar avatar-xl card-avatar card-avatar-top">
+                    <img class="border border-1 avatar-title rounded-circle" src="assets/img/illustrations/knc.svg">
+                  </div>
+
+                  <h2 class="card-title">
+                    <a href="https://kyber.network/" target="_blank">Kyber</a>
+                  </h2>
+
+                  <p class="card-text text-muted">
+                    An on-chain liquidity protocol that aggregates liquidity from a wide range of reserves, allowing betoken managers to trade instantly.
+                  </p>
+
+                </div>
+
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0">
+
+                <div class="card-body text-center">
+
+                  <div href="#" class="avatar avatar-xl card-avatar card-avatar-top">
+                    <img class="border border-1 avatar-title rounded-circle" src="assets/img/illustrations/bzx.jpg">
+                  </div>
+
+                  <h2 class="card-title">
+                    <a href="https://b0x.network/" target="_blank">bZx</a>
+                  </h2>
+
+                  <p class="card-text text-muted">
+                    A financial primitive enabling margin trading up to 4x leverage on Betoken.
+                  </p>
+
+                </div>
+
+              </div>
+              <!-- Card -->
+              <div class="card mb-6 mb-lg-0">
+
+                <div class="card-body text-center">
+
+                  <div href="#" class="avatar avatar-xl card-avatar card-avatar-top">
+                    <img class="border border-1 avatar-title rounded-circle" src="assets/img/illustrations/maker.jpg">
+                  </div>
+
+                  <h2 class="card-title">
+                    <a href="https://makerdao.com" target="_blank">Maker</a>
+                  </h2>
+
+                  <p class="card-text text-muted">
+                    A decentralized autonomous organization (DAO) comprised of a decentralized stablecoin (Dai), collateral loans, and community governance. Betoken use Dai to handle its bookkeeping, and distribute profits and commissions to its users.
+                  </p>
+
+                </div>
+
+              </div>
+              <!-- Card -->
+              <div class="card">
+
+                <div class="card-body text-center">
+
+                  <div href="#" class="avatar avatar-xl card-avatar card-avatar-top">
+                    <img class="border border-1 avatar-title rounded-circle" src="assets/img/illustrations/compound.jpg">
+                  </div>
+
+                  <h2 class="card-title">
+                    <a href="https://compound.finance" target="_blank">Compound</a>
+                  </h2>
+
+                  <p class="card-text text-muted">
+                    A decentralized protocol which establishes money markets with algorithmically set interest rates based on supply and demand, allowing Betoken managers to perform margin trading up to 1.5x leverage.
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              Join The Open Movement
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-none d-lg-block">
+              Betoken is an open project that believes in open source code and creative contribution from people with diverse interests and skill-sets. Dozens of people have contributed ideas, code, designs, and time to Betoken. Here are just a few of the faces from our chatroom.
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              Join The Open Movement
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              Betoken is an open project that believes in open source code and creative contribution from people with diverse interests and skill-sets. Dozens of people have contributed ideas, code, designs, and time to Betoken. Here are just a few of the faces from our chatroom.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <!-- Avatar group -->
+            <div class="avatar-group">
+              <a href="#" class="avatar avart-lg" data-toggle="tooltip" title="" data-original-title="Ab Hadley">
+                <img src="assets/img/avatars/profiles/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+              </a>
+              <a href="#" class="avatar avart-lg" data-toggle="tooltip" title="" data-original-title="Adolfo Hess">
+                <img src="assets/img/avatars/profiles/avatar-3.jpg" alt="..." class="avatar-img rounded-circle">
+              </a>
+              <a href="#" class="avatar avart-lg" data-toggle="tooltip" title="" data-original-title="Daniela Dewitt">
+                <img src="assets/img/avatars/profiles/avatar-4.jpg" alt="..." class="avatar-img rounded-circle">
+              </a>
+              <a href="#" class="avatar avart-lg" data-toggle="tooltip" title="" data-original-title="Miyah Myles">
+                <img src="assets/img/avatars/profiles/avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              Get Started in Minutes
+            </h2>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              Get Started in Minutes
+            </h2>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+            <div class="row">
+              <div class="col-auto">
+                <span class="display-1 text-light">1</span>
+              </div>
+              <div class="col">
+                <h3 class="h2 mb-2">Create an account</h3>
+                <p>Use any supported wallet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+            <div class="row">
+              <div class="col-auto">
+                <span class="display-1 text-light">2</span>
+              </div>
+              <div class="col">
+                <h3 class="h2 mb-2">Connect your capital...</h3>
+                <p>Let proven managers handle your crypto portfolio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="row">
+              <div class="col-auto">
+                <span class="display-1 text-light">3</span>
+              </div>
+              <div class="col">
+                <h3 class="h2 mb-2">...Or get paid to trade</h3>
+                <p>Earn commissions for making good investments.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <a class="btn btn-success btn-lg" href="#">Get started</a>
+          </div>
+        </div>
+      </div> <!-- / .container -->
+
+    </div> <!-- / .main-content -->
+    <div class="main-container bg-dark">
+      <div class="container py-6">
+        <div class="row justify-content-center">
+          <div class="col col-lg-3">
+            <img class="d-block mb-4" src="assets/img/logo.svg" alt="..." width="64">
+            <p class="text-secondary">Don't trust our words, trust our code. The Betoken protocol is publicly audited and available on <a class="text-white" href="https://github.com/Betoken/" target="_blank">Github</a>.</p>
+          </div>
+          <div class="col col-lg-3 offset-lg-3">
+            <h4 class="text-white">Join our community</h4>
+            <div class="list-group list-group-flush">
+              <a class="list-group-item list-group-item-action border-0 pl-0" href="https://twitter.com/betokenfund" target="_blank">Twitter</a>
+              <a class="list-group-item list-group-item-action border-0 pl-0" href="https://t.me/betokenfund" target="_blank">Telegram</a>
+              <a class="list-group-item list-group-item-action border-0 pl-0" href="https://medium.com/betoken" target="_blank">Medium</a>
+            </div>
+          </div>
+          <div class="col col-lg-3">
+            <h4 class="text-white mb-4">Subscribe to the Betoken Report</h4>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup" class="mb-lg-4 mb-4">
+              <form action="https://fund.us17.list-manage.com/subscribe/post?u=9c0647dcb587985ed6121cdf6&amp;id=150e0f091e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="emailer-box">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" value="" name="EMAIL" id="mce-EMAIL" placeholder="Enter your email" required>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9c0647dcb587985ed6121cdf6_150e0f091e" tabindex="-1" value=""></div>
+                    <div class="input-group-append">
+                      <button class="btn btn-success" type="button" name="subscribe" id="mc-embedded-subscribe">Join</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div> <!-- / .main-container -->
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="assets/libs/list.js/dist/list.min.js"></script>
+    <script src="assets/libs/quill/dist/quill.min.js"></script>
+    <script src="assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="assets/libs/select2/dist/js/select2.min.js"></script>
+    <script src="assets/libs/chart.js/Chart.extension.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+
+  </body>
+</html>

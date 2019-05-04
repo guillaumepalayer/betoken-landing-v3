@@ -1,0 +1,12 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+.navbar-brand-img, .navbar-brand > img{
+  max-height: 36px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #FFFFFF;
+  background-color: #2C7BE5;
+  background: #22c88a1a;
+}
