@@ -10418,3 +10418,6 @@ a:focus, button:focus {
   color: #FFFFFF;
   background-color: #2C7BE5;
   background: #22c88a1a; }
+
+.modal-dialog-vertical.modal-sidebar-nav {
+  max-width: 250px; }
