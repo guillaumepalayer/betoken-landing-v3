@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/fonts/feather/feather.min.css">
+    <link rel="stylesheet" href="assets/libs/highlight.js/styles/vs2015.css">
+    <link rel="stylesheet" href="assets/libs/quill/dist/quill.core.css">
+    <link rel="stylesheet" href="assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="assets/libs/flatpickr/dist/flatpickr.min.css">
+    <link rel='stylesheet' href='https://widget.kyber.network/v0.6.4/widget.css'>
+
+    <!-- Theme CSS -->
+    
+    <link rel="stylesheet" href="assets/css/theme.min.css">
+      
+
+    <title>Betoken | Crowd-powered crypto asset management protocol</title>
+
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Get Updates modal -->
+    <div class="modal fade fixed-right" id="modalEmailUpdates" tabindex="-1" role="dialog" aria-labelledby="Get update modal by email" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical bg-white" role="document">
+        <div class="modal-content">
+          <div class="modal-body pb-5">
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div class="header text-center">
+              <div class="header-body">
+
+                <h6 class="header-pretitle">
+                  Betoken Report
+                </h6>
+
+                <h1 class="header-title">
+                  Get notified by email
+                </h1>
+
+              </div>
+            </div>
+            <!-- Text -->
+            <p class="text-center text-muted mb-5">
+              Be the first to know about new investments cycles and Betoken's next big things 👇.
+            </p>
+            <form action="https://fund.us17.list-manage.com/subscribe/post?u=9c0647dcb587985ed6121cdf6&amp;id=150e0f091e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate col mb-5" target="_blank" novalidate>
+              <div class="input-group input-group-lg">
+                <input class="form-control" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="myemail@address.com" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9c0647dcb587985ed6121cdf6_150e0f091e" tabindex="-1" value=""></div>
+                <div class="input-group-append bg-black">
+                  <button class="btn btn-dark btn-lg btn-block" name="subscribe" id="mc-embedded-subscribe">
+                      <span class="fe fe-send"></span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <div class="row justify-content-center">
+              <div class="col-auto mb-5">
+                <a href="https://t.me/betokenfund" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/telegram.svg" alt="telegram logo" height="20">
+                </a>
+                <a href="https://twitter.com/betokenfund" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/twitter.svg" alt="twitter logo" height="20">
+                </a>
+                <a href="https://medium.com/betoken" class="btn btn-rounded-circle btn-white mr-3" target="_blank">
+                  <img class="mx-auto" src="assets/img/medium.svg" alt="medium logo" height="20">
+                </a>
+                <a href="https://github.com/Betoken" class="btn btn-rounded-circle btn-white" target="_blank">
+                  <img class="mx-auto" src="assets/img/github.svg" alt="medium logo" height="20">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- / modal -->
+    <!-- Modal: sidebar -->
+    <div class="modal fade" id="sidebarModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical modal-sidebar-nav" role="document">
+        <div class="modal-content">
+          <div class="modal-body px-0 px-md-4">
+            <nav class="navbar navbar-vertical fixed-left navbar-expand-sm navbar-light border-0">
+
+              <!-- Brand -->
+              <a class="navbar-brand text-left" href="index.html">
+                <img src="assets/img/logo.svg" class="navbar-brand-img" alt="Betoken logo" height="36"> <span class="text-secondary ml-2 h3 mb-0">Betoken</span>
+              </a>
+
+              <!-- Collapse -->
+              <div class="collapse navbar-collapse show" id="navbarVertical">
+
+                <!-- Navigation -->
+                <ul class="navbar-nav mb-md-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://betoken.fund">
+                      <i class="fe fe-home"></i>Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="funding.html">
+                      <i class="fe fe-home"></i>Funding
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="friends.html">
+                      <i class="fe fe-home"></i>Friends of Betoken
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://betoken.gitbook.io/betoken/portal/my-investments#what-is-commissions" target="_blank">
+                      <i class="fe fe-dollar-sign"></i> Fees and commissions
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://medium.com/betoken" target="_blank">
+                      <i class="fe fe-feather"></i> From the blog
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Betoken/Whitepaper/" target="_blank">
+                      <i class="fe fe-book"></i> White Paper
+                    </a>
+                  </li>
+                </ul>
+                <hr class="navbar-divider my-3">
+                <p class="small text-secondary">Be part of the open finance</p>
+                <a class="btn btn-sm btn-success" href="https://betoken.fund/portal/#/dashboard" target="_blank">Sign Up Now</a>
+                <hr class="navbar-divider my-3">
+                <!-- Navigation -->
+                <ul class="navbar-nav mb-md-3">
+                  <li class="nav-item">
+                    <a class="nav-link small" href="">
+                      Language: English <i class="fe fe-chevron-right ml-auto text-right"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link small" href="">
+                      Help
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link small" href="">
+                      Send feedback
+                    </a>
+                  </li>
+                </ul>
+
+              </div> <!-- / .navbar-collapse -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NAVIGATION
+    ================================================== -->
+    <!-- HEADER -->
+    <div class="bg-ellipses bg-dark pb-7">
+      <!-- NAVIGATION
+      ================================================== -->
+      <nav class="navbar navbar-expand-lg bg-transparent border border-0 mb-5" id="topnav">
+        <div class="container">
+          <div class="row d-flex justify-content-between no-gutters w-100">
+            <div class="col d-flex align-items-center">
+              <!-- Brand -->
+              <a class="text-white" href="#" data-toggle="modal" data-target="#sidebarModal"><i class="fe fe-menu mr-3 h1 mb-0"></i></a>
+              <a class="navbar-brand mr-auto d-flex align-items-center" href="index.html">
+                <img src="assets/img/logo.svg" alt="..." class="navbar-brand-img">
+                <span class="text-white ml-2 h3 mb-0">Betoken</span>
+              </a>
+            </div>
+            <div class="col ml-auto d-flex justify-content-end">
+              <div class="navbar-user">
+                <a class="text-white mr-5 d-none d-md-flex" href="funding.html">Funding</a>
+                <a class="text-white mr-5 d-none d-md-flex" href="friends.html">Friends</a>
+                <a class="text-white mr-5 d-none d-md-flex" href="https://medium.com/betoken" target="_blank">Blog</a>
+                <a class="text-white mr-5 d-none d-md-flex" href="https://betoken.gitbook.io/betoken/" target="_blank">Help</a>
+                <div class="mr-4 d-none d-md-flex">
+                  <a class="text-white" data-toggle="modal" href="#modalEmailUpdates">
+                    <span class="icon active">
+                      <i class="fe fe-bell"></i>
+                    </span>
+                  </a>
+
+                </div>
+              </div>
+              <ul class="navbar-nav">
+                <li class="nav-item mr-2 d-none d-md-flex align-items-center">
+                  <a class="text-white btn btn-link" href="https://betoken.fund/portal/#/dashboard" target="_blank">
+                    Sign in
+                  </a>
+                </li>
+                <li class="nav-item mr-2 d-none d-md-flex align-items-center">
+                  <a class="text-white btn btn-success" href="start.html">
+                    Sign Up
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- / .container -->
+      </nav>
+      <div class="container">
+        <div class="row justify-content-center mb-6">
+          <div class="col col-lg-8 text-center">
+            <!-- Subtitle -->
+            <h6 class="header-pretitle text-muted">Oveview</h6>
+            <!-- Title -->
+            <h1 class="display-2 d-none d-lg-block text-white mb-5">
+              Friends of Betoken
+            </h1>
+            <h1 class="display-4 d-block d-lg-none text-white mb-5">
+              Friends of Betoken
+            </h1>
+            <p class="text-muted lead mb-0">The following companies, institutions, or individuals have generously donated financial resources to the Betoken project under our <a href="funding.html">community funding model</a>. We're grateful for their support, and are proud to display their logos or names as supporters of Betoken.</p>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div> <!-- / .bg-ellipses -->
+
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+      <!-- CARDS -->
+      <div class="container mt-n6 mb-6">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+
+            <!-- Card -->
+
+            <div class="card border-0">
+              <h3 class="card-header">Hall of Fame</h3>
+              <div class="card-body">
+                <ul class="list-group list-group-flush list my-n3">
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">1</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <img src="assets/img/avatars/profiles/guillaume.jpg" alt="..." class="avatar-img rounded-circle">
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="" target="_blank">John J Almoa</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <h6 class="header-pretitle text-muted">total</h6>
+                        <p class="mb-0 text">$3,000</p>
+
+                      </div>
+                      <div class="col-auto">
+                        <h6 class="header-pretitle text-muted"># donations</h6>
+                        <p class="mb-0 text">1</p>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">2</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">3</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">4</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">5</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">6</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">7</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">8</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">9</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-1">
+
+                        <h5 class="header-pretitle text-muted mb-0">10</h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Donate to take this spot!</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <!-- CARDS -->
+      <div class="container mb-6">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+
+            <!-- Card -->
+
+            <div class="card border-0">
+              <h3 class="card-header">Company</h3>
+              <div class="card-body">
+                <ul class="list-group list-group-flush list my-n3">
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <img src="assets/img/illustrations/knc.svg" alt="Kyber" class="avatar-img rounded-circle">
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="" target="_blank">Kyber</a>
+                        </h5>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Your logo here</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-6">
+
+            <!-- Card -->
+
+            <div class="card border-0">
+              <h3 class="card-header">Individuals</h3>
+              <div class="card-body">
+                <ul class="list-group list-group-flush list my-n3">
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">JK</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="" target="_blank">John keygen</a>
+                        </h5>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                  <li class="list-group-item px-0">
+
+                    <div class="row align-items-center">
+                      <div class="col-auto">
+
+                        <!-- Avatar -->
+                        <a href="" target="_blank" class="avatar">
+                          <span class="avatar-title rounded-circle">?</span>
+                        </a>
+
+                      </div>
+                      <div class="col ml-n2">
+
+                        <!-- Title -->
+                        <h5 class="mb-1 name">
+                          <a href="funding.html">Your name here</a>
+                        </h5>
+
+                      </div>
+                      <div class="col-auto">
+
+                        <a class="btn btn-sm btn-white" href="funding.html">Donate</a>
+
+                      </div>
+                    </div> <!-- / .row -->
+
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              Anonymous Supporters
+            </h2>
+
+            <!-- Text -->
+            <p class="display-4 text-center text-muted d-none d-lg-block">
+              We'd also like to explicitly thank everyone who's donated but chosen to remain anonymous.
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              Anonymous Supporters
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              We'd also like to explicitly thank everyone who's donated but chosen to remain anonymous.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+      <div class="container mb-6 mb-lg-7">
+        <div class="row justify-content-center mb-5 mb-lg-6">
+          <div class="col col-lg-8 col-xl-8">
+
+            <!-- Title -->
+            <h2 class="display-2 text-center d-none d-lg-block">
+              Minimum amounts
+            </h2>
+
+            <!-- Text -->
+            <p class="display-4 text-center text-muted d-none d-lg-block">
+              100 USD in crypto-equivalent in order to be listed in the individuals section, 1,000 USD in the companies section, and 2,000 USD in the Hall of Fame.
+            </p>
+
+            <!-- Title -->
+            <h2 class="display-4 text-center d-block d-lg-none">
+              Minimum amounts
+            </h2>
+
+            <!-- Text -->
+            <p class="lead text-center text-muted d-block d-lg-none">
+              100 USD in crypto-equivalent in order to be listed in the individuals section, 1,000 USD in the companies section, and 2,000 USD in the Hall of Fame.
+            </p>
+
+            <div class="card card-inactive mt-7 mb-0">
+              <div class="card-body">
+                <h3 class="">See something wrong?</h3>
+                <p class="text-muted">
+                  This page is a work in progress. We are doing our best to keep information up to date, but there's a good chance
+                    bugs will slip in. For any corrections, please contact an admin on our <a href="https://t.me/betokenfund" target="_blank">Telegram channel</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </div> <!-- / .main-content -->
+    <div class="main-container bg-dark-gradient">
+      <div class="container py-5 py-lg-6">
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+            <img class="d-block mb-4" src="assets/img/logo.svg" alt="..." width="64">
+            <p class="text-secondary">Don't trust our words, trust our code. The Betoken protocol is publicly audited and available on <a class="text-white" href="https://github.com/Betoken/" target="_blank">Github</a>.</p>
+          </div>
+          <div class="col-12 col-lg-3 offset-lg-3 mb-5 mb-lg-0">
+            <h4 class="text-white">Join our community</h4>
+            <div class="list-group list-group-flush">
+              <a class="list-group-item text-white border-0 pl-0" href="https://twitter.com/betokenfund" target="_blank">Twitter</a>
+              <a class="list-group-item text-white border-0 pl-0" href="https://t.me/betokenfund" target="_blank">Telegram</a>
+              <a class="list-group-item text-white border-0 pl-0" href="https://medium.com/betoken" target="_blank">Medium</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h4 class="text-white mb-4">Subscribe to the Betoken Report</h4>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup" class="mb-lg-4 mb-4">
+              <form action="https://fund.us17.list-manage.com/subscribe/post?u=9c0647dcb587985ed6121cdf6&amp;id=150e0f091e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="emailer-box">
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="button-addon2" value="" name="EMAIL" id="mce-EMAIL" placeholder="Enter your email" required>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_9c0647dcb587985ed6121cdf6_150e0f091e" tabindex="-1" value=""></div>
+                    <div class="input-group-append">
+                      <button class="btn btn-success" type="button" name="subscribe" id="mc-embedded-subscribe">Join</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End mc_embed_signup-->
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <div class="card card-inactive mb-0">
+              <div class="card-body">
+                <h3 class="text-white">Disclaimer</h3>
+                <p class="text-muted">
+                  Nothing herein constitutes an offer to sell, or the solicitation of an offer to buy, any securities or tokens.
+                </p>
+                <p class="text-muted">
+                  Betoken enables capital connection and managing using smart contracts which are open source. Betoken does not take custody of tokens and is only a collaborative hub for investors and managers. Betoken is not a licensed bank, broker-dealer, investment advisor or an exchange. Betoken uses partner protocols (Kyber, Compound, bZx, Maker DAO) to power its own ecosystem.
+                </p>
+                <p class="text-danger">
+                  💀 This project is in beta. Use at your own risk.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </div> <!-- / .main-container -->
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="assets/libs/list.js/dist/list.min.js"></script>
+    <script src="assets/libs/quill/dist/quill.min.js"></script>
+    <script src="assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="assets/libs/select2/dist/js/select2.min.js"></script>
+    <script async src='https://widget.kyber.network/v0.6.4/widget.js'></script>
+    <script src="assets/libs/chart.js/Chart.extension.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+
+
+  </body>
+</html>
