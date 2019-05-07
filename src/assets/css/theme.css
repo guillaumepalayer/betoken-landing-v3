@@ -9467,21 +9467,6 @@ a:focus, button:focus {
   background-size: 200% 150%;
   background-position: center bottom; }
 
-.bg-vibrant {
-  background-image: linear-gradient(to bottom right, rgba(18, 111, 235, 0.9), rgba(114, 3, 225, 0.9)), url(../img//covers/sidebar-cover.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: center center, center center;
-  background-size: cover, cover; }
-  @media (max-width: 767.98px) {
-    .bg-vibrant {
-      background-attachment: fixed, fixed; } }
-
-.bg-hero {
-  background-image: linear-gradient(to bottom, rgba(18, 38, 63, 0.85), rgba(18, 38, 63, 0.85)), url(../img//covers/header-cover.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: center center, center center;
-  background-size: cover, cover; }
-
 .border-2 {
   border-width: 2px !important; }
 
