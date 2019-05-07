@@ -10488,3 +10488,6 @@ a:focus, button:focus {
 .bg-blue-sky {
   background: #56ccf2;
   background: linear-gradient(90deg, #2f80ed, #56ccf2); }
+
+iframe > body > .kyber_widget {
+  padding: 0 !important; }
